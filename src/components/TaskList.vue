@@ -29,7 +29,7 @@
   </template>
   
   <script setup>
-  import { ref, watch, onMounted } from 'vue'
+  import { ref, watch, onMounted, computed } from 'vue'
   
   const newTask = ref('')
   const tasks = ref([])
